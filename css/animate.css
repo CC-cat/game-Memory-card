@@ -1,0 +1,41 @@
+/*360度旋转*/
+.effect-rotate360 {
+    animation: rotate360 3s linear 1;
+    -webkit-animation: rotate360 3s linear 1;
+}
+
+    @keyframes rotate360 {
+        from{-webkit-transform: rotate(0deg)}
+        to{-webkit-transform: rotate(360deg)}
+    }
+
+    @-webkit-keyframes rotate360 {
+        from{-webkit-transform: rotate(0deg)}
+        to{-webkit-transform: rotate(360deg)}
+    }
+
+/*不透明度隐藏*/
+.opacity-hide {
+    animation: breathHide 1s linear 1;
+    -webkit-animation: breathHide 1s linear 1;
+}
+
+@keyframes breathHide {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes breathHide {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
